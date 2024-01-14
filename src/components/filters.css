@@ -1,0 +1,27 @@
+.filter-contaner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.filter-box {
+    width: 60;
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+}
+.filter-box.highlighted {
+    border: 1px solid red;
+}
+
+.input-name {
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+}

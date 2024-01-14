@@ -1,0 +1,22 @@
+#root {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100%;
+  background-color: #e2e2e2;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.dashboard h1 {
+  color: darkgray;
+  padding-bottom: 30px;
+}
+
